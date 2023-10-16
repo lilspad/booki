@@ -1,0 +1,40 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--background-color);
+    padding: 20px;
+    column-gap: 200px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.footer-heading {
+    font-size: 26px;
+    padding: 10px;
+    padding-bottom: 15px;
+}
+
+.footer-link {
+    font-size: 24px;
+    padding: 10px;
+}
+
+/* small screen */
+
+@media screen and (max-width: 768px) {
+    .footer-container {
+        padding: 20px 0;
+    }
+
+    .footer-heading {
+        font-size: 20px;
+    }
+
+    .footer-link {
+        font-size: 18px;
+    }
+}

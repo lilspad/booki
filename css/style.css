@@ -1,0 +1,209 @@
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* Color variables */
+
+:root {
+    --primary-color: #0065FC;
+    --secondary-color: #DEEBFF;
+    --background-color: #F2F2F2;
+}
+
+/* General */
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+main {
+    padding: 0 50px;
+}
+
+/* Font sizes */
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+/* Color */
+
+.bg-gray {
+    background-color: var(--background-color);
+}
+
+.bg-blue {
+    background-color: var(--primary-color);
+}
+
+.c-blue {
+    color: var(--primary-color)
+}
+
+.stroke-blue {
+    -webkit-text-stroke: 1px var(--primary-color);
+}
+
+.stroke-white {
+    -webkit-text-stroke: 1px #fff;
+}
+
+/* Layout */
+
+.flex {
+    display: flex;
+}
+
+.f-grow {
+    flex-grow: 1;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-start {
+    align-items: flex-start;
+}
+
+.sp-between {
+    justify-content: space-between;
+}
+
+.sp-evenly {
+    justify-content: space-evenly;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+/* Dimensions */
+
+.w-50 {
+    width: 50%;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.mw-390 {
+    max-width: 390px;
+}
+
+.h-180 {
+    height: 180px;
+}
+
+.h-650 {
+    height: 650px;
+}
+
+/* Margins */
+
+.m-v-10 {
+    margin: 10px 0;
+}
+
+.m-v-30 {
+    margin: 30px 0;
+}
+
+.m-left-5 {
+    margin-left: 5px;
+}
+
+.m-left-10 {
+    margin-left: 10px;
+}
+
+.m-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.m-bottom-50 {
+    margin-bottom: 50px;
+}
+
+/* Padding */
+
+.pad-left-10 {
+    padding-left: 10px;
+}
+
+.pad-10 {
+    padding: 10px;
+}
+
+.pad-40 {
+    padding: 40px;
+}
+
+/* Border */
+
+.rounded {
+    border-radius: 30px;
+}
+
+.rounded-top {
+    border-radius: 20px 20px 0 0;
+}
+
+.rounded-left {
+    border-radius: 20px 0 0 20px;
+}
+
+/* Misc */
+
+.info-icon {
+    padding: 5px 10px;
+    border: 2px var(--background-color) solid;
+    border-radius: 99px;
+}
+
+/* Queries */
+
+@media screen and (max-width: 768px) {
+    main {
+        padding: 0 20px;
+    }
+
+    .ss-w-full {
+        width: 100%;
+    }
+}
